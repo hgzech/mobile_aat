@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/experiment_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fill_in_experiment_instruction"/>
+
+
+        <EditText
+            android:id="@+id/experiment_edit_text"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:hint="@string/fill_in_experiment_hint"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:visibility="gone"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/progress_text"
+            android:text="Setting up experiment (make sure you're connected to the internet)..."
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <WebView
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </WebView>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"/>
+</LinearLayout>

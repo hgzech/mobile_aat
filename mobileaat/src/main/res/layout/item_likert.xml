@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--This TextView should have an associated style-->
+    <TextView
+        android:id="@+id/likert_text"
+        style="@style/QuestionTextStyle"
+        android:layout_weight="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/likert_min_text"
+            android:layout_width="0dp"
+            android:gravity="center_vertical|right"
+            android:text=""
+            android:textSize="11sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <RadioGroup
+            android:id="@+id/likert_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="0dp"
+            android:layout_gravity="center">
+            <RadioButton
+                android:id="@+id/radio_button_1"
+                style="@style/RadioButtonStyle" />
+            <RadioButton
+                android:id="@+id/radio_button_2"
+                style="@style/RadioButtonStyle" />
+            <RadioButton
+                android:id="@+id/radio_button_3"
+                style="@style/RadioButtonStyle" />
+            <RadioButton
+                android:id="@+id/radio_button_4"
+                style="@style/RadioButtonStyle" />
+            <RadioButton
+                android:id="@+id/radio_button_5"
+                style="@style/RadioButtonStyle" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/likert_max_text"
+
+            android:layout_width="0dp"
+            android:gravity="center_vertical|left"
+            android:text=""
+            android:textSize="11sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Picture Game</string>
+    <string name="title_activity_login">Login</string>
+    <string name="fill_in_experiment_instruction">Vul de experiment-naam in om te beginnen:</string>
+    <string name="fill_in_experiment_hint">Type hier de experiment-naam</string>
+</resources>

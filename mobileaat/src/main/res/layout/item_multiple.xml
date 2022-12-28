@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/multiple_text"
+        style="@style/QuestionTextStyle"
+ />
+    <RadioGroup
+        android:id="@+id/multiple_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+        <RadioButton
+            android:visibility="gone"
+            style="@style/RadioButtonStyle" />
+    </RadioGroup>
+
+</LinearLayout>
