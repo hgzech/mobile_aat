@@ -70,16 +70,16 @@ public abstract class AccelerometerActivity extends AppCompatActivity implements
         senAccelerometer = senSensorManager.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION);
         // Check if the phone's accelerometer corrects for gravity
         boolean hasLinearAccelerometer;
-        hasLinearAccelerometer = senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_FASTEST);
+        hasLinearAccelerometer = senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_GAME);
         if (!hasLinearAccelerometer) {
             senAccelerometer = senSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-            boolean hasAccelerometer = senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_FASTEST);
+            boolean hasAccelerometer = senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_GAME);
             onSensorTypeDetected(AccelerometerActivity.ACCELERATION);
         } else {
             onSensorTypeDetected(AccelerometerActivity.LINEAR_ACCELERATION);
         }
         Sensor senGyro = senSensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
-        senSensorManager.registerListener(this, senGyro, SensorManager.SENSOR_DELAY_FASTEST);
+        senSensorManager.registerListener(this, senGyro, SensorManager.SENSOR_DELAY_GAME);
 
     }
 
@@ -89,7 +89,7 @@ public abstract class AccelerometerActivity extends AppCompatActivity implements
     protected void onResume() {
         super.onResume();
         Log.d(TAG, "onResume: Registering listener." );
-        senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_FASTEST);
+        senSensorManager.registerListener(this, senAccelerometer, SensorManager.SENSOR_DELAY_GAME);
     }
 
     /**
