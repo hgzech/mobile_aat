@@ -130,8 +130,8 @@ public final class DatabaseHelper {
         // We only log the completion date once
         if (checkSessionCompletion(sessionId, context) == 0L) {
             getDefaultSharedPreferences(context).edit().putLong(sessionId, time).apply();
-            incrementSessionCompletionCount(sessionId, context); // Incrementing session completion count if session is repeating
         }
+        incrementSessionCompletionCount(sessionId, context); // Incrementing session completion count if session is repeating
     }
 
     public static Long checkSessionCompletionCount(String sessionId, Context context) {
