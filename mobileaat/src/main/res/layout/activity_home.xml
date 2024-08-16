@@ -39,9 +39,11 @@
         android:visibility="gone"
         android:background="#FFFFFF"
         android:gravity="center"
+        android:layout_gravity="center"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -54,7 +56,8 @@
         <WebView
             android:id="@+id/progress_bar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
         </WebView>
     </LinearLayout>
 

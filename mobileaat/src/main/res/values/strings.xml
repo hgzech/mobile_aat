@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Picture Game</string>
+    <string name="app_name">Mobile AAT</string>
     <string name="title_activity_login">Login</string>
     <string name="fill_in_experiment_instruction">To get started, fill in the experiment name:</string>
     <string name="fill_in_experiment_hint">Type experiment name, here.</string>

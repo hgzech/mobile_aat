@@ -63,7 +63,7 @@ public class HomeActivity extends AppCompatActivity implements FirebaseHelper.Co
     private void setupProgressBar() {
         if (progressBar == null) {
             progressBar = findViewById(R.id.progress_bar);
-            progressBar.loadDataWithBaseURL("file:///android_res/raw/", "<img src='progress.gif' style='max-width:100%' align='middle'>", "text/html", "UTF-8", "");
+            progressBar.loadDataWithBaseURL("file:///android_res/raw/", "<img src='progress.gif' style='max-width:50%' align='middle'>", "text/html", "UTF-8", "");
         }
     }
 
