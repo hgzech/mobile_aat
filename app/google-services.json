@@ -8,6 +8,64 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:423961997686:android:141efcf08b42b200a00a57",
+        "android_client_info": {
+          "package_name": "com.hilmarzech.mobileaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaE4-EhG9Mf68jQ7MBgR9Za_9lOvHJclE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423961997686:android:a0e38dacaf0bf1b4a00a57",
+        "android_client_info": {
+          "package_name": "com.hilmarzech.mov_aat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaE4-EhG9Mf68jQ7MBgR9Za_9lOvHJclE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:423961997686:android:c2f9326993e125f7",
         "android_client_info": {
           "package_name": "com.hilmarzech.picturegame"
@@ -22,6 +80,64 @@
             "certificate_hash": "afd7a0ffdef7aa66b0eeda55c4b610ea45198156"
           }
         },
+        {
+          "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaE4-EhG9Mf68jQ7MBgR9Za_9lOvHJclE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423961997686:android:c32e5f36ab9de0d1a00a57",
+        "android_client_info": {
+          "package_name": "com.hilmarzech.wurzburgaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaE4-EhG9Mf68jQ7MBgR9Za_9lOvHJclE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423961997686:android:d9b4bae0ed4daae4a00a57",
+        "android_client_info": {
+          "package_name": "com.ramlihcez.picturegame"
+        }
+      },
+      "oauth_client": [
         {
           "client_id": "423961997686-3ec914nnkm27b0n4stdt0rqfvr8hg8cf.apps.googleusercontent.com",
           "client_type": 3
